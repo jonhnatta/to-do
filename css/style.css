@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+}
+
+html,body{
+    height: 100%;
+    background-color: #F2F2F2;
+}
+
+.center{
+    width: 100%;
+    max-width: 300px;
+    margin:50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.center h1{
+    margin-bottom: 10px;
+}
+
+.center input{
+    margin-right: 10px;
+}
+
+.to-do{
+    list-style: none;
+}
+
+.to-do li{
+    padding: 15px 0;
+    border-bottom:1px solid #CCC;
+    font-weight: 300;
+}
+
+.to-do li.complete{
+    text-decoration: line-through;
+    color: #999;
+    cursor: not-allowed;
+}
+
+#new-task{
+    width: 100%;
+    padding: 10px;
+}
