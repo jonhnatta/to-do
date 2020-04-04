@@ -23,24 +23,37 @@ html,body{
     margin-bottom: 10px;
 }
 
-.center input{
+.center input[type="text"]{
     margin-right: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #CCC;
+    margin-top: 15px;
+    
 }
 
-.to-do{
+.todo{
     list-style: none;
 }
 
-.to-do li{
+.todo li{
     padding: 15px 0;
     border-bottom:1px solid #CCC;
     font-weight: 300;
 }
 
-.to-do li.complete{
+.todo li.complete{
     text-decoration: line-through;
     color: #999;
     cursor: not-allowed;
+}
+
+.todo button{
+    width: initial;
+    color: white;
+    background-color: red;
+    float: right;
+    min-width: 35px;
 }
 
 #new-task{
