@@ -53,7 +53,8 @@ html,body{
     color: white;
     background-color: red;
     float: right;
-    min-width: 35px;
+    min-width: 22px;
+    border-radius: 13px;
 }
 
 #new-task{
